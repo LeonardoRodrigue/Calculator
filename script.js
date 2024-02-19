@@ -38,7 +38,7 @@ function handleSymbol(symbol){
         case '+':
         case '-':
             handleMath(symbol);
-            break; 
+            break;
         case '×':
         case '÷':
             handleMath(symbol);
