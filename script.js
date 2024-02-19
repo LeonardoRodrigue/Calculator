@@ -37,11 +37,12 @@ function handleSymbol(symbol){
             break;
         case '+':
         case '-':
-            handleMath(symbol);
-            break;
         case '×':
         case '÷':
             handleMath(symbol);
+            break;
+        default:
+            handleNumber(symbol);
             break;
     }
 }
